@@ -1,0 +1,17 @@
+.headerNav {
+	--bgColor: lightgray;
+	background-color: var(--bgColor);
+	padding: 1em;
+}
+.headerNavList {
+	margin: 0;
+	padding: 0;
+}
+.headerNavList li {
+	list-style: none;
+}
+.headerNavLink {
+	--textColor: black;
+	text-decoration: none;
+	color: var(--textColor);
+}
