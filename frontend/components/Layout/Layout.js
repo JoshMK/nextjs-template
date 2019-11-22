@@ -3,6 +3,7 @@ import React from "react";
 import Head from "next/head";
 //custom components
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 //global styles
 import "normalize.css";
 
@@ -20,6 +21,7 @@ class Layout extends React.Component {
 	}
 	render() {
 		const { children } = this.props;
+		console.log(this.props);
 		const title = "Welcome to Nextjs";
 		return (
 			<React.Fragment>
@@ -34,6 +36,7 @@ class Layout extends React.Component {
 				</Head>
 				<Header />
 				{/*<div>{children}</div>*/}
+				<Footer />
 			</React.Fragment>
 		);
 	}

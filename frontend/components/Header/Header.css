@@ -1,7 +1,8 @@
+@import "../_variables.css";
+
 .headerNav {
-	--bgColor: lightgray;
-	background-color: var(--bgColor);
-	padding: 1em;
+	background-color: var(--headerColor);
+	padding: 1.5em;
 }
 .headerNavList {
 	margin: 0;
@@ -11,7 +12,6 @@
 	list-style: none;
 }
 .headerNavLink {
-	--textColor: black;
 	text-decoration: none;
 	color: var(--textColor);
 }

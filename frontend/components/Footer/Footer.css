@@ -1,0 +1,12 @@
+@import "../_variables.css";
+
+.footer {
+	background-color: var(--footerColor);
+	padding: 2em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer-text {
+}
